@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body  { 
+    padding: 0;margin: 0; 
+    background-color:#2696c9;
+ }
+
+ .inicio {
+    display: grid;
+    grid-template-areas: 
+    "miheader miheader"
+    "presentacion marcas"
+    "mifoot mifoot";
+    grid-template-columns: 65% auto;
+    grid-template-rows: 100px 400px 100px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+}
+.cabecera {
+    grid-area: miheader;
+    color: #5084d4;
+    background-color: #c7d7f0;
+}
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.link {
+    text-decoration: none;
+    color: #5084d4;
+}
+.intro {
+    grid-area: presentacion;
+    color: #d8e1f0;
+    background-color: #5084d4;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.imgintro:hover {
+padding: 15px;
+width: 50%;
+transition: 2s;
+}
+.local {
+    grid-area: marcas;
+    background-color: #b3c7e8;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.pie {
+    grid-area: mifoot;
+    color: #5084d4;
+    background-color: #c7d7f0;
+}
+.menu {
+    padding-top: 20px;
+    color: color: #5084d4;
+}
+.lista {
+    font-family: 'Roboto Mono', monospace;
+  list-style-type: none;
+  display: inline;
+  
+  margin: 15px;
+  
+}
+
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: #2696c9;
+}
+.info  { 
+    margin-left: 160px;
+}
+ .formulario  {
+     text-align: center;
+     color: aliceblue;
+  }
+.boton {
+    margin-top: 50px;
+ }
+.pie {
+    grid-area: mifoot;
+}
+@media screen and (max-width: 580px) {
+    .cabecera {
+        font-size: 6px;
+        margin: 14px;
+    }
+    .intro {
+        font-size: 15px;
+    }
+    .imgintro {
+        width: 200px;
+    }
+    .local {
+        font-size: 15px;
+    }
+    .pie {
+        font-size: 15px;
+    }
+}
+.tienda1 { 
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "pant"
+    "public"
+    "foter";
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto auto 100px;
+    grid-row-gap: 8px;
+ }
+ .head {
+    grid-area: head;
+ }
+ .pantaloness {
+    grid-area: pant;
+    display: flex;
+    background-color: #5084d4;
+    padding: 20px;
+    margin: 10px;
+ }
+ .pantalon1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #b3c7e8;
+    margin: 6px;
+    box-shadow: 3px 2px;
+    width: 100%;
+ }
+ .pantalon1:hover {
+    cursor: pointer;
+    width: 140%;
+    transition: 1s;
+ }
+ .imgpant {
+    width: 240px;
+    height: 320px;
+ }
+.ofert {
+    grid-area: public;
+    text-align: center;
+    background-color: #5084d4;
+    color:#b3c7e8 ;
+    font-size: 40px;
+}
+.foter {
+    grid-area: foter;
+}
+@media screen and (max-width: 690px)
+{
+    .pantaloness {
+        display: flex;
+        flex-direction: column;
+}
+.pantalon1 {
+    width: auto;
+    font-size: 10px;
+}
+.imgpant {
+    width: 100px;
+    height: 120px;
+}
+.ofert {
+    font-size: 15px;
+}
+.imgofertas {
+    width: 100px;
+    height: 120px;
+}
+}
