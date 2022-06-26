@@ -5,19 +5,8 @@ body  {
     background-color:#2696c9;
  }
 
- .inicio {
-    display: grid;
-    grid-template-areas: 
-    "miheader miheader"
-    "presentacion marcas"
-    "mifoot mifoot";
-    grid-template-columns: 65% auto;
-    grid-template-rows: 100px 400px 100px;
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-}
+
 .cabecera {
-    grid-area: miheader;
     color: #5084d4;
     background-color: #c7d7f0;
 }
@@ -31,7 +20,6 @@ header {
     color: #5084d4;
 }
 .intro {
-    grid-area: presentacion;
     color: #d8e1f0;
     background-color: #5084d4;
     text-align: center;
@@ -44,14 +32,12 @@ width: 50%;
 transition: 2s;
 }
 .local {
-    grid-area: marcas;
     background-color: #b3c7e8;
     text-align: center;
     font-size: 20px;
     padding-top: 100px;
 }
 .pie {
-    grid-area: mifoot;
     color: #5084d4;
     background-color: #c7d7f0;
 }
@@ -107,22 +93,10 @@ footer {
         font-size: 15px;
     }
 }
-.tienda1 { 
-    display: grid;
-    grid-template-areas: 
-    "head"
-    "pant"
-    "public"
-    "foter";
-    grid-template-columns: auto;
-    grid-template-rows: 100px auto auto 100px;
-    grid-row-gap: 8px;
- }
  .head {
-    grid-area: head;
+    
  }
  .pantaloness {
-    grid-area: pant;
     display: flex;
     background-color: #5084d4;
     padding: 20px;
@@ -143,17 +117,15 @@ footer {
  }
  .imgpant {
     width: 240px;
-    height: 320px;
+    height: 280px;
  }
 .ofert {
-    grid-area: public;
     text-align: center;
     background-color: #5084d4;
     color:#b3c7e8 ;
     font-size: 40px;
 }
 .foter {
-    grid-area: foter;
 }
 @media screen and (max-width: 690px)
 {
@@ -173,7 +145,7 @@ footer {
     font-size: 15px;
 }
 .imgofertas {
-    width: 100px;
-    height: 120px;
+    width: 120px;
+    height: 100px;
 }
 }
