@@ -66,8 +66,9 @@ footer {
 }
 @media screen and (max-width: 580px) {
     .cabecera {
-        font-size: 6px;
-        margin: 14px;
+        font-size: 15px;
+        margin: 5px;
+        padding: 27px;
     }
     .intro {
         font-size: 15px;
