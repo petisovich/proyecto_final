@@ -1,5 +1,5 @@
 .cabecera {
-	color: #5084d4;
+	color: $fondo-2;
 	background-color: #c7d7f0;
 }
 header {
@@ -9,7 +9,7 @@ header {
 }
 .link {
 	text-decoration: none;
-	color: #5084d4;
+	color: $fondo-2;
 }
 .lista {
 	font-family: 'Roboto Mono', monospace;
@@ -19,5 +19,5 @@ header {
 }
 .menu {
 	padding-top: 20px;
-	color:#5084d4;
+	color: $fondo-2;
 }
