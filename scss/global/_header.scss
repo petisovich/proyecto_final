@@ -1,0 +1,23 @@
+.cabecera {
+	color: $fondo-2;
+	background-color: #c7d7f0;
+}
+header {
+	display: flex;
+	padding: 10px;
+	justify-content: space-around;
+}
+.link {
+	text-decoration: none;
+	color: $fondo-2;
+}
+.lista {
+	font-family: 'Roboto Mono', monospace;
+	list-style-type: none;
+	display: inline;
+	margin: 15px;
+}
+.menu {
+	padding-top: 20px;
+	color: $fondo-2;
+}

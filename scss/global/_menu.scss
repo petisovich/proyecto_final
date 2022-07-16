@@ -1,0 +1,66 @@
+.imgintro {
+	&:hover {
+		padding: 24px;
+		width: 60%;
+		transition: 2s;
+	}
+}
+.local {
+	background-color: $fondo-1;
+	text-align: center;
+	font-size: 20px;
+	padding: 170px;
+	&:hover {
+		font-size: 200%;
+		transition: 2s;
+	}
+    .pantaloness {
+        display: flex;
+        background-color: $fondo-2;
+        padding: 20px;
+        margin: 10px;
+    }
+    .pantalon1 {
+        text-align: center;
+        padding: 10px;
+        background-color: $fondo-1;
+        margin: 6px;
+        box-shadow: 3px 2px;
+        width: 100%;
+        &:hover {
+            cursor: pointer;
+            padding: 12%;
+            transition: 1s;
+        }
+    }
+    .version2 {
+        @extend .pantalon1;
+        width: 50%;
+        background-color: aliceblue;
+        box-shadow: 0;
+    }
+    @mixin probando {
+        background-color: red;
+        width: 20%;
+        border-color: green 2px solid;
+        margin: 10px;
+    }
+    .version3 {
+        @include probando;
+    }
+    .imgpant {
+        width: 240px;
+        height: 280px;
+    }
+    .ofert {
+        text-align: center;
+        background-color: $fondo-2;
+        color: $fondo-1;
+        font-size: 40px;
+    }
+    .formulario {
+        background-color: $fondo-2;
+        padding: 10px;
+        color: #d8e1f0;
+    }
+}

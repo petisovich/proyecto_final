@@ -1,0 +1,12 @@
+$fondo-1: #b3c7e8;
+$fondo-2: #5084d4;
+$botones:(
+        comprar: red,
+        enviar: blue,
+        VerMas: black,
+    );
+    @each $bot, $color in $botones {
+        .btn--#{$bot} { 
+            background-color: $color;
+        }
+    }
