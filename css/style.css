@@ -10,6 +10,12 @@ body  {
     color: #5084d4;
     background-color: #c7d7f0;
 }
+.navbar {
+    padding: 30px;
+}
+.navbar-brand {
+    color: #5084d4;
+}
 header {
     display: flex;
     padding: 10px;
@@ -22,7 +28,7 @@ header {
 .intro {
     color: #d8e1f0;
     background-color: #5084d4;
-    text-align: center;
+    
     padding: 90px;
     font-size: 20px;
 }
@@ -47,15 +53,13 @@ transition: 2s;
 }
 .menu {
     padding-top: 20px;
-    color: color: #5084d4;
+    color: #5084d4;
 }
 .lista {
+    display: inline;
     font-family: 'Roboto Mono', monospace;
   list-style-type: none;
-  display: inline;
-  
   margin: 15px;
-  
 }
 footer {
     background-color: aliceblue;
@@ -64,17 +68,17 @@ footer {
     font-size: 30px;
     color: #2696c9;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 690px) {
     .cabecera {
         font-size: 15px;
         margin: 5px;
         padding: 27px;
     }
     .intro {
-        font-size: 15px;
+        font-size: 19px;
     }
     .imgintro {
-        width: 200px;
+        width: 240px;
     }
     .local {
         font-size: 15px;
@@ -125,18 +129,21 @@ footer {
 }
 .pantalon1 {
     width: auto;
-    font-size: 10px;
+    font-size: 20px;
 }
 .imgpant {
-    width: 100px;
-    height: 120px;
+    width: 140px;
+    height: 150px;
 }
 .ofert {
-    font-size: 15px;
+    font-size: 21px;
 }
 .imgofertas {
     width: 117px;
     height: 100px;
+}
+.pie {
+    font-size: 20px;
 }
 }
  .formulario  {
