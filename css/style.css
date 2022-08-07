@@ -37,13 +37,13 @@ padding: 24px;
 width: 60%;
 transition: 2s;
 }
-.local {
+.local1 {
     background-color: #b3c7e8;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     padding: 170px;
 }
-.local:hover {
+.local1:hover {
 font-size: 200%;
 transition: 2s;
 }
@@ -80,7 +80,7 @@ footer {
     .imgintro {
         width: 240px;
     }
-    .local {
+    .local1 {
         font-size: 15px;
     }
     .pie {
@@ -121,7 +121,7 @@ footer {
 }
 .foter {
 }
-@media screen and (max-width: 690px)
+@media screen and (max-width: 1570px)
 {
     .pantaloness {
         display: flex;
@@ -146,8 +146,52 @@ footer {
     font-size: 20px;
 }
 }
+@media screen and (min-width: 992px) {
+    .ofert {
+        font-size: 30px;
+    }
+    .pie {
+        font-size: 30px;
+    }
+    .intro {
+        font-size: 25px;
+        padding: 140px;
+    }
+    
+
+}
+@media screen and (min-width: 1043px) {
+    
+    .local1 {
+        padding: 180px;
+    }
+
+}
+@media screen and (min-width: 1213px) {
+    
+    .local1 {
+        padding: 188px;
+    }
+
+}
  .formulario  {
-background-color: #5084d4;
 padding: 10px;
-color: #d8e1f0;
+color: white;
+background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+url(../imagenes/formularios.jpg) ;
+
+
+border-radius: 5%;
+image-resolution: calc;
+image-resolution: opacity: 5%;
+
   }
+  .imgcard {
+    width: 70%;
+    opacity: 40%;
+    border-radius: 5%;
+}
+.form {
+  image-resolution: opacity: 5%;
+    list-style-image: ;
+}
